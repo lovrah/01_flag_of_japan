@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: lightgrey;
+    height: 100vh; /*Viewport height */
+    margin: 0;
+    display: flex;
+
+}
+
+main {
+    background: white;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    box-shadow: rgb(211, 232, 249) 2px 2px 2px 2px inset;
+    box-shadow:
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(110, 104, 104, 0.6);
+    
+}
+
+aside {
+    width: 18rem;
+    height: 18rem;
+    background-color: rgb(168, 23, 23);
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
